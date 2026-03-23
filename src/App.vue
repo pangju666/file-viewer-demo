@@ -3,9 +3,7 @@
 </template>
 
 <script setup>
-import "@pangju/file-viewer/index.css";
 import FileView from "@/components/FileView.vue";
-import TestView from "@/components/TestView.vue";
 </script>
 
 <style>

@@ -1,6 +1,5 @@
 import Dxf2DFile from "@/assets/file/2d.DXF";
 import Dxf3DFile from "@/assets/file/3d.DXF";
-import DxfTestFile from "@/assets/file/test.DXF";
 
 export const testFiles = [
   /* PDF */
