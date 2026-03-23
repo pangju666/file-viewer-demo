@@ -18,7 +18,7 @@ export default defineConfig({
       vue(),
     ],
     build: {
-        outDir: "dist",
+        outDir: "docs",
         emptyOutDir: true,
         sourcemap: false,
     }
