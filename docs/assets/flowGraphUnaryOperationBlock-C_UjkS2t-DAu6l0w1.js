@@ -1,0 +1,1 @@
+import{V as i}from"./flowGraphCachedOperationBlock-BXnvwVY3-DvxVFNMT.js";let n=class extends i{constructor(t,s,e,a,r){super(s,r),this._operation=e,this._className=a,this.a=this.registerDataInput("a",t)}_doOperation(t){return this._operation(this.a.getValue(t))}getClassName(){return this._className}};export{n as p};

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host --force",
-    "build": "npm run build"
+    "build": "vite build"
   },
   "dependencies": {
     "@pangju666/file-viewer": "^1.0.0",
