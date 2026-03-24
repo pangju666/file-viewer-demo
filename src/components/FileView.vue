@@ -3,6 +3,8 @@
 </template>
 
 <script setup>
+import {FileViewer} from "@pangju666/file-viewer";
+import "@pangju666/file-viewer/index.css";
 import { testFiles } from "@/utils/mock";
 import { onMounted, ref } from "vue";
 
