@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@pangju/file-viewer':
-        specifier: file:.yalc/@pangju/file-viewer
-        version: file:.yalc/@pangju/file-viewer(@babylonjs/core@8.55.1)(@babylonjs/loaders@8.55.1(@babylonjs/core@8.55.1)(babylonjs-gltf2interface@8.55.1))(vue@3.5.30)
+      '@pangju666/file-viewer':
+        specifier: ^1.0.0
+        version: 1.0.0(@babylonjs/core@8.55.1)(@babylonjs/loaders@8.55.1(@babylonjs/core@8.55.1)(babylonjs-gltf2interface@8.55.1))(vue@3.5.30)
       vue:
         specifier: ^3.5.29
         version: 3.5.30
@@ -54,8 +54,8 @@ packages:
       '@babylonjs/core': ^8.0.0
       babylonjs-gltf2interface: ^8.0.0
 
-  '@babylonjs/viewer@8.55.1':
-    resolution: {integrity: sha512-ZnT19DjsBsZQBOx6X6CAhHHbLJYZN/eydkz1DTJtYeoQ40khffmUe0dbvTon/3C0T94IRuk6PSNNle8yC/bEBQ==}
+  '@babylonjs/viewer@8.56.2':
+    resolution: {integrity: sha512-c7wYsI0ME369hf3fugfcaKWxe6rXkmMkvwYfyq/9DhMxRyQycVJlBCHZOD6Wu5s5Y1T9mwH0IxAN7l4h+0KRiA==}
     peerDependencies:
       '@babylonjs/core': ^8.0.0
       '@babylonjs/loaders': ^8.0.0
@@ -393,10 +393,10 @@ packages:
     peerDependencies:
       vue: ^3.0.0
 
-  '@pangju/file-viewer@file:.yalc/@pangju/file-viewer':
-    resolution: {directory: .yalc/@pangju/file-viewer, type: directory}
+  '@pangju666/file-viewer@1.0.0':
+    resolution: {integrity: sha512-rfbosMoc4jkhBM6Omfb3tUSvuET/X3hNTOmj2W96eCor58Q0Ijqx2mj8wPMwio5FOuvC67T1FtIRluVRzkb86g==}
     peerDependencies:
-      vue: ^3.5.29
+      vue: ^3.5.30
 
   '@rolldown/pluginutils@1.0.0-rc.2':
     resolution: {integrity: sha512-izyXV/v+cHiRfozX62W9htOAvwMo4/bXKDrQ+vom1L1qRuexPock/7VZDAhnpHCLNejd3NJ6hiab+tO0D44Rgw==}
@@ -570,8 +570,8 @@ packages:
   '@vavt/copy2clipboard@1.0.3':
     resolution: {integrity: sha512-HtG48r2FBYp9eRvGB3QGmtRBH1zzRRAVvFbGgFstOwz4/DDaNiX0uZc3YVKPydqgOav26pibr9MtoCaWxn7aeA==}
 
-  '@vavt/util@2.1.1':
-    resolution: {integrity: sha512-QYn/B2qiQhAGZVBoe5/6pPcA3NiGcxIm9htpVBjcdIOZQaWe+8kE/akEgLPrHxv5dbQQawnyHBokadW1d1z1tw==}
+  '@vavt/util@2.1.2':
+    resolution: {integrity: sha512-L3UbSJthJwr3wq0x93O5TrCepimrmVZaIl2ciZbeL18G5++gBhJXNhcH7RcVk/6rr3SavWOvwhig0mqRLoR7dw==}
 
   '@vicons/ionicons5@0.13.0':
     resolution: {integrity: sha512-zvZKBPjEXKN7AXNo2Na2uy+nvuv6SP4KAMQxpKL2vfHMj0fSvuw7JZcOPCjQC3e7ayssKnaoFVAhbYcW6v41qQ==}
@@ -722,8 +722,8 @@ packages:
       picomatch:
         optional: true
 
-  file-type@21.3.3:
-    resolution: {integrity: sha512-pNwbwz8c3aZ+GvbJnIsCnDjKvgCZLHxkFWLEFxU3RMa+Ey++ZSEfisvsWQMcdys6PpxQjWUOIDi1fifXsW3YRg==}
+  file-type@21.3.4:
+    resolution: {integrity: sha512-Ievi/yy8DS3ygGvT47PjSfdFoX+2isQueoYP1cntFW1JLYAuS4GD7NUPGg4zv2iZfV52uDyk5w5Z0TdpRS6Q1g==}
     engines: {node: '>=20'}
 
   fsevents@2.3.3:
@@ -800,8 +800,8 @@ packages:
     resolution: {integrity: sha512-BuU2qnTti9YKgK5N+IeMubp14ZUKUUw7yeJbkjtosvHiP0AZ5c8IAgEMk79D0eC8F23r4Ac/q8cAIFdm2FtyoA==}
     hasBin: true
 
-  md-editor-v3@6.4.0:
-    resolution: {integrity: sha512-gd2COD1cYsvC9KyKODxqC2fmWWCM1uamvPWQLl9fdcUieUyvP8BY9ANOIrxkjdJ5W6f7JcAuAsgiUyJmlMOyzQ==}
+  md-editor-v3@6.4.1:
+    resolution: {integrity: sha512-rVYCiA243Xm5zI8p7O4CztAtQ6eA7K5h4O6pilKKMgSfJJFtE7zFp9ivfia/+ITtXe4BWoty8ADjqcdzpp6zVw==}
     peerDependencies:
       vue: ^3.5.3
 
@@ -1045,7 +1045,7 @@ snapshots:
       '@babylonjs/core': 8.55.1
       babylonjs-gltf2interface: 8.55.1
 
-  '@babylonjs/viewer@8.55.1(@babylonjs/core@8.55.1)(@babylonjs/loaders@8.55.1(@babylonjs/core@8.55.1)(babylonjs-gltf2interface@8.55.1))':
+  '@babylonjs/viewer@8.56.2(@babylonjs/core@8.55.1)(@babylonjs/loaders@8.55.1(@babylonjs/core@8.55.1)(babylonjs-gltf2interface@8.55.1))':
     dependencies:
       '@babylonjs/core': 8.55.1
       '@babylonjs/loaders': 8.55.1(@babylonjs/core@8.55.1)(babylonjs-gltf2interface@8.55.1)
@@ -1499,14 +1499,14 @@ snapshots:
       lodash: 4.17.23
       vue: 3.5.30
 
-  '@pangju/file-viewer@file:.yalc/@pangju/file-viewer(@babylonjs/core@8.55.1)(@babylonjs/loaders@8.55.1(@babylonjs/core@8.55.1)(babylonjs-gltf2interface@8.55.1))(vue@3.5.30)':
+  '@pangju666/file-viewer@1.0.0(@babylonjs/core@8.55.1)(@babylonjs/loaders@8.55.1(@babylonjs/core@8.55.1)(babylonjs-gltf2interface@8.55.1))(vue@3.5.30)':
     dependencies:
-      '@babylonjs/viewer': 8.55.1(@babylonjs/core@8.55.1)(@babylonjs/loaders@8.55.1(@babylonjs/core@8.55.1)(babylonjs-gltf2interface@8.55.1))
+      '@babylonjs/viewer': 8.56.2(@babylonjs/core@8.55.1)(@babylonjs/loaders@8.55.1(@babylonjs/core@8.55.1)(babylonjs-gltf2interface@8.55.1))
       '@onlyoffice/document-editor-vue': 1.6.1(vue@3.5.30)
       '@vicons/ionicons5': 0.13.0
       dxf-viewer: 1.0.46
-      file-type: 21.3.3
-      md-editor-v3: 6.4.0(vue@3.5.30)
+      file-type: 21.3.4
+      md-editor-v3: 6.4.1(vue@3.5.30)
       naive-ui: 2.44.1(vue@3.5.30)
       nanoid: 5.1.7
       three: 0.161.0
@@ -1626,7 +1626,7 @@ snapshots:
 
   '@vavt/copy2clipboard@1.0.3': {}
 
-  '@vavt/util@2.1.1': {}
+  '@vavt/util@2.1.2': {}
 
   '@vicons/ionicons5@0.13.0': {}
 
@@ -1822,7 +1822,7 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.3
 
-  file-type@21.3.3:
+  file-type@21.3.4:
     dependencies:
       '@tokenizer/inflate': 0.4.1
       strtok3: 10.3.4
@@ -1908,7 +1908,7 @@ snapshots:
       punycode.js: 2.3.1
       uc.micro: 2.1.0
 
-  md-editor-v3@6.4.0(vue@3.5.30):
+  md-editor-v3@6.4.1(vue@3.5.30):
     dependencies:
       '@codemirror/autocomplete': 6.20.1
       '@codemirror/commands': 6.10.3
@@ -1921,7 +1921,7 @@ snapshots:
       '@lezer/highlight': 1.2.3
       '@types/markdown-it': 14.1.2
       '@vavt/copy2clipboard': 1.0.3
-      '@vavt/util': 2.1.1
+      '@vavt/util': 2.1.2
       codemirror: 6.0.2
       lru-cache: 11.2.7
       lucide-vue-next: 0.543.0(vue@3.5.30)
