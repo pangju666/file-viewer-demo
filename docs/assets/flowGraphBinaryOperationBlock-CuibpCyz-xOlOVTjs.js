@@ -1,1 +1,0 @@
-import{V as o}from"./flowGraphCachedOperationBlock-BXnvwVY3-DvxVFNMT.js";class p extends o{constructor(t,s,e,a,r,i){super(e,i),this._operation=a,this._className=r,this.a=this.registerDataInput("a",t),this.b=this.registerDataInput("b",s)}_doOperation(t){const s=this.a.getValue(t),e=this.b.getValue(t);return this._operation(s,e)}getClassName(){return this._className}}export{p};
