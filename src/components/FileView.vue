@@ -21,7 +21,7 @@ const options = ref({
     onlyOfficeServerUrl: "http://localhost:10000"
   },*/
   pdf: {
-    pdfjsViewBaseUrl: "pdfjs/web/viewer.html",
+    pdfjsViewBaseUrl: "/file-viewer-demo/pdfjs/web/viewer.html",
     /*mode: "onlyOffice",
     onlyOfficeServerUrl: "http://localhost:10000"*/
   },

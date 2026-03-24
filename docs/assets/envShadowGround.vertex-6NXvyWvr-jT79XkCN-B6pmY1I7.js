@@ -1,1 +1,0 @@
-import{K as e}from"./index-D0uYf7q_.js";const o="envShadowGroundVertexShader",r="precision highp float;attribute vec3 position;attribute vec2 uv;uniform mat4 worldViewProjection;varying vec2 vUV;void main(void) {gl_Position=worldViewProjection*vec4(position,1.0);vUV=uv;}";e.ShadersStore[o]||(e.ShadersStore[o]=r);const t={name:o,shader:r};export{t as envShadowGroundVertexShader};
